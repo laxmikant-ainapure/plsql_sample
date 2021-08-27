@@ -14,7 +14,7 @@ BEGIN
       INSERT INTO temp VALUES
          (acct, acct_balance, 'Insufficient funds');
             -- insert account, current balance, and message
-      COMMIT;
+--      COMMIT;
    END IF;
 
    COMMIT;
